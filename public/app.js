@@ -66,7 +66,7 @@ buttonListAddElement.addEventListener("click", (event) => {
 
     const inputValue = inputListAddElement.value;
 
-    if (inputValue === "") {
+    if (inputValue.trim() === "") {
         return;
     }
 
